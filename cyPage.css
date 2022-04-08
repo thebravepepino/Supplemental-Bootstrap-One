@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS DOcument */
+
+.bg-dark{
+    background-color: darkolivegreen !important;
+}
+
+.c-container {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.c-carousel-caption {
+    color: black;
+}
+
+.text-container {
+    max-width: 1000px;
+}
+
+.front-page-text {
+    padding-top: 20px;
+}
+
+.footer {
+    background-color: darkolivegreen;
+    height: 60px;
+    color: #eee;
+    font-size: 12pt;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.control-width {
+    max-width: 1200px;
+}
+
+.card-container {
+    padding-bottom: 20px;
+}
+
+.card-footer-dt {
+    height: 60px;
+    
+}
+
+.btn-primary {
+    background-color: darkolivegreen;
+    color:antiquewhite;
+    border-color: darkolivegreen;
+}
+
+.btn-primary:hover {
+    background-color: green;
+    color:antiquewhite;
+    border-color: darkolivegreen;
+}
+
+.modal-content {
+    text-align: center;
+}
