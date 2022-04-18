@@ -1,6 +1,12 @@
 @charset "UTF-8";
 /* CSS DOcument */
 
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #556b2f;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
 .bg-dark{
     background-color: darkolivegreen !important;
 }
@@ -59,3 +65,4 @@
 .modal-content {
     text-align: center;
 }
+
