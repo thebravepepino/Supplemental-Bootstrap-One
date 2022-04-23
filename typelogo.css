@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS DOcument */
+
+html {font-size: 100%;} /*16px*/
+
+body {
+    background-color: white;
+}
+
+.table {
+    margin: auto;
+    width: 65% !important;
+    background-color: #EAEAEA;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1, h2, h3, h4, h5, {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 100;
+}
+
+.sitetext {
+    margin:auto;
+    width: 65% !important;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.hometext {
+    margin:auto;
+    width: 70% !important;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+/* Playfair Display section */
+
+h1.playfair, h2.playfair, h3.playfair, h4.playfair {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+h1.playfair {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+h2.playfair {font-size: 2.441rem;}
+h3.playfair {font-size: 1.953rem;}
+h4.playfair {font-size: 1.563rem;}
+
+/* Red Hat Display section */
+
+p.redhat, emphasis.redhat, a.redhat {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+
+emphasis.redhat {
+    font-weight: 700;
+}
+
+a.redhat {
+    color: steelblue;
+}
+
+
+/* EB Garamond section */
+
+h1.ebgaramond, h2.ebgaramond, h3.ebgaramond, h4.ebgaramond, h5.ebgaramond, p.ebgaramond, emphasis.ebgaramond, a.ebgaramond {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+}
+
+h1.ebgaramond {
+    font-size: 3.052rem;    
+    font-weight: 500;}
+
+h2.ebgaramond {font-size: 2.441rem;}
+h3.ebgaramond {font-size: 1.953rem;}
+h4.ebgaramond {font-size: 1.563rem;}
+
+p.ebgaramond {font-size: 1rem;
+    font-weight: 500;}
+
+emphasis.ebgaramond {font-size: 1rem; font-weight: 700;}
+
+a.ebgaramond {
+    color: darkcyan;
+}
+
+
+
+/* Amarante section */
+
+h1.amarante,h2.amarante,h3.amarante,h4.amarante {
+    font-family: 'Amarante', sans-serif;
+    font-weight: 400;
+}
+
+h1.amarante {
+    font-size: 2.488rem;
+}
+
+h2 {font-size: 2.074rem;}
+h3 {font-size: 1.728rem;}
+h4 {font-size: 1.44rem;}
+
+
+/* Source Sans Pro section */
+
+p.sourcesans, emphasis.sourcesans, a.sourcesans {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+}
+
+emphasis.sourcesans {
+    font-weight: 700;
+}
+
+a.sourcesans {
+    color: mediumpurple;
+}
