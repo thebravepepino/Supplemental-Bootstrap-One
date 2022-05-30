@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Dominique Terry Design System</title>
+      <link rel="icon" type="image/x-icon" href="../img/faviconbunny.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- This is where you put your google font in if applicable -->
+<!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+
+<!-- This is the link to the toggle hamburger -->
+	 <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link  rel="stylesheet"  href="../css/prism.css"/>
+
+  </head>
+  <body>
+    
+    <div class="d-flex">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="toggle-btn">
+              <span class="sr-only">Toggle Menu</span>
+                    <div id="nav-icon1" >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+               </button>
+          </div>
+		<div class="p-4 pt-6">
+		  <h1><a href="../index.html" class="logo"><img src="../img/whitebunnylogo.png"></a></h1>
+
+	       <ul class="list-unstyled components">
+	     
+	          <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+	            
+			            <ul class="collapse list-unstyled" id="homeSubmenu">
+		                <li>
+		                    <a href="../foundation/type.html">Typography</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/color.html">Color</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/logo.html">Logo</a>
+		                </li>
+			            </ul>
+	          </li>
+	          
+	          <li>
+              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+              <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
+               <li>
+                    <a href="navbar.html">Navigation Bars</a>
+                </li>
+                <li>
+                    <a href="buttons.html">Buttons</a>
+                </li>
+                <li>
+                    <a href="casecards.html">Case Study Cards</a>
+                </li>
+              </ul>
+	          </li>
+
+	          <li>
+              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+              <ul class="collapse list-unstyled" id="PatternsSubmenu">
+                 <li>
+                    <a href="../patterns/homepattern.html">Home Page Patterns</a>
+                </li>
+                <li>
+                    <a href="../patterns/casepattern.html">Case Study Patterns</a>
+                </li>
+               
+              </ul>
+	          </li>
+	         
+	         
+	        </ul> 
+
+	      
+
+
+	      </div>
+    	</nav>
+        <!-- Page Content  -->
+      <div class = "container">
+          <div class = "row p-5 pt-6">
+            <div id="content">
+
+              <h1>Buttons</h1>
+              <p>These are the variations of the button that will be used on the portfolio site.</p>
+                  
+              <h2>Usage</h2>
+              <p>Buttons in portfolios should be only used when necessary. In this case, it wasn't particularly necessary to add a button, but it shows that I am capable of coding this type of component into projects.</p>
+                
+                
+              <h2> Accessibility Considerations</h2>
+              <p>I thought about including an additional button on the home page to "View Work" that would take you to the UX Case Study page, but I decided against this approach because it might cause confusion to the user about the difference between clicking the UX Case Study navigation link and the second button.</p>
+                
+              <h2>Button States</h2>
+                
+                <br><br>
+                
+            <div class="buttongroup">
+                
+                <img src="../img/Contact_Button.png">
+            <div class="buttontext">
+                
+                <p>Normal State</p>
+                
+                </div>
+                
+            </div>
+                
+            <div class="buttongroup">
+                
+            <img src="../img/Contact_Button_Hover.png">
+                
+            <div class="buttontext">
+                
+                <p>Hover State</p>
+                
+                </div>
+                
+            </div>
+                
+            <div class="buttongroup">
+                
+                <img src="../img/Contact_Button_Click.png">
+                
+            <div class="buttontext">
+                
+                <p>Selected State</p>
+                
+                </div>
+                
+            </div>
+                
+            <div class="buttongroup">
+                
+                <a href="#" class="btn" role="button"></a>
+                
+            <div class="buttontext">
+                
+                <p>Responsive Button</p>
+                
+                </div>
+                
+            </div>
+                
+            <h2>Code</h2>
+                
+            &lt;a href=&quot;#&quot; class=&quot;btn&quot; role=&quot;button&quot;&gt;&lt;/a&gt;
+              
+    		             
+    
+        </div>      <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+</div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
