@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Dominique Terry Design System</title>
+      <link rel="icon" type="image/x-icon" href="../img/faviconbunny.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- This is where you put your google font in if applicable -->
+<!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+
+<!-- This is the link to the toggle hamburger -->
+	 <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link  rel="stylesheet"  href="../css/prism.css"/>
+
+  </head>
+  <body>
+    
+    <div class="d-flex">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="toggle-btn">
+              <span class="sr-only">Toggle Menu</span>
+                    <div id="nav-icon1" >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+               </button>
+          </div>
+		<div class="p-4 pt-6">
+		  <h1><a href="index.html" class="logo"><img src="../img/whitebunnylogo.png"></a></h1>
+
+	       <ul class="list-unstyled components">
+	     
+	          <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+	            
+			            <ul class="collapse list-unstyled" id="homeSubmenu">
+		                <li>
+		                    <a href="../foundation/type.html">Typography</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/color.html">Color</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/logo.html">Logo</a>
+		                </li>
+			            </ul>
+	          </li>
+	          
+	          <li>
+              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+              <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
+               <li>
+                    <a href="navbar.html">Navigation Bars</a>
+                </li>
+                <li>
+                    <a href="buttons.html">Buttons</a>
+                </li>
+                <li>
+                    <a href="casecards.html">Case Study Cards</a>
+                </li>
+              </ul>
+	          </li>
+
+	          <li>
+              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+              <ul class="collapse list-unstyled" id="PatternsSubmenu">
+                 <li>
+                    <a href="../patterns/homepattern.html">Home Page Patterns</a>
+                </li>
+                <li>
+                    <a href="../patterns/casepattern.html">Case Study Patterns</a>
+                </li>
+               
+              </ul>
+	          </li>
+	         
+	         
+	        </ul> 
+
+	      
+
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div class = "container">
+          <div class = "row p-5 pt-6">
+            <div id="content">
+
+              <h1>Navigation Bars</h1>
+                
+                <p>Below are the different navigation bars for the portfolio.</p>
+                
+                <h2>Usage</h2>
+                <p>These navigation bars will be present on every page to allow visitors to easily access the projects relevant to their reason for viewing the site. The nav bars are </p>
+                
+                <br>
+                
+                <h2>Accessibility Considerations</h2>
+                <p>The text colors will remain black until the relevant page is active. At that point, the text will be Seafoam Green.</p>
+                
+                <br>
+                
+                <h2>Navigation Bar Examples</h2>
+                <hr>
+                
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="../index.html"><img src="../img/largelogo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">UX Case Studies <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="#">Graphic Design</a>
+                        <button class="btn my-2 my-sm-0" type="submit"></button>
+                    </div>
+                  </div>
+                </nav>
+              
+                <br><p>Above is the navigation bar layout used for desktop screens.</p>
+
+                <hr>
+                
+                <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="../index.html"><img src="../img/largelogo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">UX Case Studies<span class="sr-only">(current)</span></a>
+                        <button class="btn my-2 my-sm-0" type="submit"></button>
+                    </div>
+                  </div>
+                </nav>
+                
+                <br><p>Above is the navigation bar layout used for tablet screens.</p>
+                
+                <hr>
+                
+                <div class="pos-f-t phonenav">
+                  <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="p-4">
+                      <div class="navbar-nav" id="navbarToggleExternalContent" >
+                        <a class="nav-item nav-link active" href="#">UX Case Studies <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="#">Graphic Design</a>
+                        <button class="btn my-2 my-sm-0" type="submit"><img src=../img/Contact_Button.png></button>
+                    </div>
+                    </div>
+                  </div>
+                  <nav class="navbar navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                      
+                      <a class="navbar-brand" href="../index.html"><img src="../img/largelogo.png"></a>
+                  </nav>
+                      
+                </div>
+                
+                 <br><p>Above is the navigation bar layout used for phone screens.</p>
+    
+                <hr>
+                
+                <h2>Navigation Bar Code</h2>
+                <h4>Desktop Screens</h4>
+                
+                &amp;lt;nav class=&quot;navbar navbar-expand-lg navbar-light&quot;&amp;gt;<br />
+                &amp;lt;a class=&quot;navbar-brand&quot; href=&quot;../index.html&quot;&amp;gt;&amp;lt;img src=&quot;../img/largelogo.png&quot;&amp;gt;&amp;lt;/a&amp;gt;<br />
+                &amp;lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarNavAltMarkup&quot; aria-controls=&quot;navbarNavAltMarkup&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&amp;gt;<br />
+                &amp;lt;span class=&quot;navbar-toggler-icon&quot;&amp;gt;&amp;lt;/span&amp;gt;<br />
+                &amp;lt;/button&amp;gt;<br />
+                &amp;lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarNavAltMarkup&quot;&amp;gt;<br />
+                    &amp;lt;div class=&quot;navbar-nav&quot;&amp;gt;<br />
+                        &amp;lt;a class=&quot;nav-item nav-link active&quot; href=&quot;#&quot;&amp;gt;UX Case Studies &amp;lt;span class=&quot;sr-only&quot;&amp;gt;(current)&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;<br />
+                        &amp;lt;a class=&quot;nav-item nav-link active&quot; href=&quot;#&quot;&amp;gt;Graphic Design&amp;lt;/a&amp;gt;<br />
+                        &amp;lt;button class=&quot;btn my-2 my-sm-0&quot; type=&quot;submit&quot;&amp;gt;&amp;lt;img src=../img/Contact_Button.png&amp;gt;&amp;lt;/button&amp;gt;<br />
+                    &amp;lt;/div&amp;gt;<br />
+                  &amp;lt;/div&amp;gt;<br />
+                &amp;lt;/nav&amp;gt;
+                
+                <br><br>
+                <h4>Tablet Screens</h4>
+                
+                &lt;nav class=&quot;navbar navbar-expand-lg navbar-light&quot;&gt;<br />
+                &lt;a class=&quot;navbar-brand&quot; href=&quot;../index.html&quot;&gt;&lt;img src=&quot;../img/largelogo.png&quot;&gt;&lt;/a&gt;<br />
+                &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarNavAltMarkup&quot; aria-controls=&quot;navbarNavAltMarkup&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;<br />
+                &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;<br />
+                &lt;/button&gt;<br />
+                &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarNavAltMarkup&quot;&gt;<br />
+                    &lt;div class=&quot;navbar-nav&quot;&gt;<br />
+                        &lt;a class=&quot;nav-item nav-link active&quot; href=&quot;#&quot;&gt;UX Case Studies&lt;span class=&quot;sr-only&quot;&gt;(current)&lt;/span&gt;&lt;/a&gt;<br />
+                        &lt;button class=&quot;btn my-2 my-sm-0&quot; type=&quot;submit&quot;&gt;&lt;img src=../img/Contact_Button.png&gt;&lt;/button&gt;<br />
+                    &lt;/div&gt;<br />
+                  &lt;/div&gt;<br />
+                &lt;/nav&gt;
+                
+                <br><br>
+                <h4>Phone Screens</h4>
+                
+                &lt;div class=&quot;pos-f-t phonenav&quot;&gt;<br />
+                  &lt;div class=&quot;collapse&quot; id=&quot;navbarToggleExternalContent&quot;&gt;<br />
+                    &lt;div class=&quot;p-4&quot;&gt;<br />
+                      &lt;div class=&quot;navbar-nav&quot; id=&quot;navbarToggleExternalContent&quot; &gt;<br />
+                        &lt;a class=&quot;nav-item nav-link active&quot; href=&quot;#&quot;&gt;UX Case Studies &lt;span class=&quot;sr-only&quot;&gt;(current)&lt;/span&gt;&lt;/a&gt;<br />
+                        &lt;a class=&quot;nav-item nav-link active&quot; href=&quot;#&quot;&gt;Graphic Design&lt;/a&gt;<br />
+                        &lt;button class=&quot;btn my-2 my-sm-0&quot; type=&quot;submit&quot;&gt;&lt;img src=../img/Contact_Button.png&gt;&lt;/button&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;/div&gt;<br />
+                  &lt;/div&gt;<br />
+                  &lt;nav class=&quot;navbar navbar-light&quot;&gt;<br />
+                    &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarToggleExternalContent&quot; aria-controls=&quot;navbarToggleExternalContent&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;<br />
+                      &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;<br />
+                    &lt;/button&gt;<br />
+                      <br />
+                      &lt;a class=&quot;navbar-brand&quot; href=&quot;../index.html&quot;&gt;&lt;img src=&quot;../img/largelogo.png&quot;&gt;&lt;/a&gt;<br />
+                  &lt;/nav&gt;<br />
+                      <br />
+                &lt;/div&gt;
+                
+                <br><br>
+    
+        </div>      <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+</div>
+      <script src="../js/prism.js"></script> 
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

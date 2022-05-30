@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Dominique Terry Design System</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- This is where you put your google font in if applicable -->
+<!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+
+<!-- This is the link to the toggle hamburger -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    
+    <div class="d-flex">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="toggle-btn">
+              <span class="sr-only">Toggle Menu</span>
+                    <div id="nav-icon1" >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+               </button>
+          </div>
+		<div class="p-4 pt-6">
+		  <h1><a href="../index.html" class="logo"><img src="../img/whitebunnylogo.png"></a></h1>
+
+	       <ul class="list-unstyled components">
+	     
+	          <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+	            
+			            <ul class="collapse list-unstyled" id="homeSubmenu">
+		                <li>
+		                    <a href="../foundation/type.html">Typography</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/color.html">Color</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/logo.html">Logo</a>
+		                </li>
+			            </ul>
+	          </li>
+	          
+	          <li>
+              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+              <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
+               <li>
+                    <a href="../components/navbar.html">Navigation Bars</a>
+                </li>
+                <li>
+                    <a href="../components/buttons.html">Buttons</a>
+                </li>
+                <li>
+                    <a href="../components/casecards.html">Case Study Cards</a>
+                </li>
+              </ul>
+	          </li>
+
+	          <li>
+              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+              <ul class="collapse list-unstyled" id="PatternsSubmenu">
+                 <li>
+                    <a href="../patterns/homepattern.html">Home Page Patterns</a>
+                </li>
+                <li>
+                    <a href="../patterns/casepattern.html">Case Study Patterns</a>
+                </li>
+               
+              </ul>
+	          </li>
+	         
+	         
+	        </ul> 
+
+	      
+
+
+	      </div>
+    	</nav>
+        <!-- Page Content  -->
+      <div class = "container">
+          <div class = "row p-5 pt-6">
+            <div id="content">
+
+              <h1>UX Case Study Cards</h1>
+              <p>Below is an example of the case study cards that will be used on the UX Case Study page.</p>
+                
+                <br> 
+                
+              <h2>Usage</h2>
+              <p>These cards need to convey the goals and subject matter in as few words as possible.</p>
+              
+                <br> 
+                
+              <h2>Accessibility Considerations</h2>
+              <p>To help distinguish between the case studies, each study will have a signature color that will be shown on the card and incorporated throughout the actual case study.</p>
+              
+                <br>
+                
+              <h2>Example Case Study Card</h2>
+                
+              <div class="casestudycard">
+                
+                <img class="caseimage" src="../img/mainpagephoto.jpg">
+                  
+                <div class="casetext">
+                  
+                  <h2>Case Study Title</h2>
+                    
+                  <p>This is the summary of the case study. It will be kept short to only 2 or 3 sentences - just enough to give potential viewers the essence of the project.</p>
+                    
+                  </div>
+                  
+                </div>  
+              <br>  
+              <h2>Code</h2>
+  
+                 &lt;div class=&quot;casestudycard&quot;&gt;<br />
+                <br />
+                &lt;img class=&quot;caseimage&quot; src=&quot;../img/mainpagephoto.jpg&quot;&gt;<br />
+                  <br />
+                &lt;div class=&quot;casetext&quot;&gt;<br />
+                  <br />
+                  &lt;h2&gt;Case Study Title&lt;/h2&gt;<br />
+                    <br />
+                  &lt;p&gt;This is the summary of the case study. It will be kept short to only 2 or 3 sentences - just enough to give potential viewers the essence of the project.&lt;/p&gt;<br />
+                    <br />
+                  &lt;/div&gt;<br />
+                  <br />
+                &lt;/div&gt;  
+    		             
+    
+        </div>      <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+</div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
